@@ -1,4 +1,4 @@
-package org.digital_aid;
+package com.automation;
 
 /**
  * Hello world!

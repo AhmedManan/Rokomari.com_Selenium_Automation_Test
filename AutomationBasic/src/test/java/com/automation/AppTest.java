@@ -1,4 +1,4 @@
-package org.digital_aid;
+package com.automation;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
