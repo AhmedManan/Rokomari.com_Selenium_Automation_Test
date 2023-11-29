@@ -22,7 +22,7 @@ Before running the Selenium tests, ensure you have the following installed on yo
 
 - Java ( JDK 17 recommended )
 - Maven
-- A Code Editor ( [Spring Tool](https://spring.io/tools) build on Eclipse is recommended to run this project in your machine. )
+- A Code Editor ( [Spring Tool](https://spring.io/tools) built on Eclipse is recommended to run this project on your machine. )
 
 ### Installation
 
@@ -32,4 +32,23 @@ Before running the Selenium tests, ensure you have the following installed on yo
 ## Test Scripts
 
 **(Section To Be Continued)**
+
+## Test Report
+
+**(Section To Be Continued)**
+
+---
+
+This Test Report provides an overview of the automation testing process, test cases, and the status of the Dengue AID Web Application. Feel free to reach out for any questions or clarifications.
+
+**You May Also See:** 
+- [Manual Test Report Of RFL Best Buy](https://github.com/AhmedManan/Manual_Test_RFL_BestBuy)
+- [Test Report Of Academy LMS (WordPress Plugin)](https://github.com/AhmedManan/Manual_Test_RFL_BestBuy)
+- [Shop API Test Report](https://github.com/AhmedManan/Shop_API_Test_Report)
+- [JMeter Performance Test Report](https://github.com/AhmedManan/JMeter_Performance_Test_Report)
+- [Mobile Automation Testing With Appium (Upcoming Project)](https://github.com/AhmedManan/Appium_Mobile_Automation_Test)
+
+**Read My Blogs:** [Manan's Blog](https://ahmedmanan.com/blog/)
+
+[⬆️Back to Top](#rfl-best-buy-user-management-module-test-report)
 
