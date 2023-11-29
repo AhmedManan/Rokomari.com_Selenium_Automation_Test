@@ -31,6 +31,13 @@ Before running the Selenium tests, ensure you have the following installed on yo
 
 ## Test Scripts
 
+| Serial | Test Script Description / Details | Execution Video |
+| ------ | --------------------------------- | --------------- |
+| 1      | BaseURL Test                      | [BaseURL](/videos/baseurl.mp4) |
+| 2      | Login Module Test                 | [Another](/videos/another.mp4) |
+| 3      | Navigation Bar Test               | [Yet Another](/videos/yetanother.mp4) |
+
+
 **(Section To Be Continued)**
 
 ## Test Report
