@@ -1,4 +1,4 @@
-package com.automation;
+package AutomationBasic;
 
 /**
  * Hello world!
