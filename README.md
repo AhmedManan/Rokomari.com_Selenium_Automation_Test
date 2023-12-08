@@ -12,7 +12,7 @@ Welcome to the Digital Aid Selenium Test Project! This repository contains a col
 
 ## Introduction
 
-The Dengue Aid Selenium Test Project aims to provide an automated testing suite for the Digital Aid web application. It leverages the Selenium WebDriver to interact with the application's user interface and validate its behavior. Automated testing helps ensure the application remains functional and free from regressions as the codebase evolves.
+The Dengue Aid Selenium Test Project aims to provide an automated testing suite for the Dengue Aid web application. It leverages the Selenium WebDriver to interact with the application's user interface and validate its behavior. Automated testing helps ensure the application remains functional and free from regressions as the codebase evolves.
 
 ## Getting Started
 
