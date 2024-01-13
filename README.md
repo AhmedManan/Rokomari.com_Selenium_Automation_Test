@@ -33,9 +33,8 @@ Before running the Selenium tests, ensure you have the following installed on yo
 
 | Serial | Test Script Description / Details | Execution Video |
 | ------ | --------------------------------- | --------------- |
-| 1      | BaseURL Test                      | [![Video Preview](/screenshots_and_records/BaseURL_Test.mp4)](https://github.com/AhmedManan/Digital_Aid_Selenium_Test/blob/main/screenshots_and_records%2FBaseURL_Test.mp4) |
-| 2      | Login Module Test                 | [Another](/videos/another.mp4) |
-| 3      | Navigation Bar Test               | [Yet Another](/videos/yetanother.mp4) |
+| 1      | BaseURL Test                      | https://github.com/AhmedManan/Digital_Aid_Selenium_Test/blob/main/screenshots_and_records/BaseURL_Test.mp4 |
+
 
 
 **(Section To Be Continued)**
