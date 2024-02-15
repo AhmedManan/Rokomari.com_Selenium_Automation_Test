@@ -1,25 +1,19 @@
 package AutomationBasic;
 
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class BaseUrlTest extends BaseDriver{
 	
-	String Url="https://digital-aid.ahmedmanan.com/";
+	String Url="https://www.wafilife.com/";
 	
 	@Test
 	public void OpenUrl() throws InterruptedException{
 		driver.get(Url);
-		driver.manage().window().maximize();
-		
-        // Find the element
-        String actualText = driver.findElement(By.cssSelector("html > body > div > div > div > div > div > div > h1")).getText();
-
-        // Compare the text with the expected value
-        String expectedText = "একটি মশার কামড়ও হতে পারে বিপদজনক!";
-        Assert.assertEquals(actualText, expectedText, "Text does not match the expected value.");
-
-        Thread.sleep(5000); // 1000 = 1 sec
+        driver.manage().window().maximize();
+		Thread.sleep(5000); // 1000 = 1sec
+		String title=driver.getTitle();
+		String expected="Buy Islamic Books - Online Book Shop in Bangladesh | Wafilife";
+        Assert.assertEquals(title, expected, "Text does not match the expected value.");
 	}
 }

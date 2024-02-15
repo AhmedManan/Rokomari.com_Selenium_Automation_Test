@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-12T03:17:26 BDT" name="Default suite" finished-at="2024-01-12T03:17:36 BDT" duration-ms="9950">
+  <suite started-at="2024-02-15T21:30:41 BDT" name="Default suite" finished-at="2024-02-15T21:30:50 BDT" duration-ms="9714">
     <groups>
     </groups>
-    <test started-at="2024-01-12T03:17:26 BDT" name="Default test" finished-at="2024-01-12T03:17:36 BDT" duration-ms="9950">
+    <test started-at="2024-02-15T21:30:41 BDT" name="Default test" finished-at="2024-02-15T21:30:50 BDT" duration-ms="9714">
       <class name="AutomationBasic.BaseUrlTest">
-        <test-method is-config="true" signature="startBrowser()[pri:0, instance:AutomationBasic.BaseUrlTest@74ea2410]" started-at="2024-01-12T03:17:25 BDT" name="startBrowser" finished-at="2024-01-12T03:17:26 BDT" duration-ms="1579" status="PASS">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:AutomationBasic.BaseUrlTest@4be29ed9]" started-at="2024-02-15T21:30:39 BDT" name="startBrowser" finished-at="2024-02-15T21:30:41 BDT" duration-ms="1745" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method signature="OpenUrl()[pri:0, instance:AutomationBasic.BaseUrlTest@74ea2410]" started-at="2024-01-12T03:17:26 BDT" name="OpenUrl" finished-at="2024-01-12T03:17:36 BDT" duration-ms="9922" status="PASS">
+        <test-method signature="OpenUrl()[pri:0, instance:AutomationBasic.BaseUrlTest@4be29ed9]" started-at="2024-02-15T21:30:41 BDT" name="OpenUrl" finished-at="2024-02-15T21:30:50 BDT" duration-ms="9687" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenUrl -->
-        <test-method is-config="true" signature="close()[pri:0, instance:AutomationBasic.BaseUrlTest@74ea2410]" started-at="2024-01-12T03:17:36 BDT" name="close" finished-at="2024-01-12T03:17:36 BDT" duration-ms="211" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:AutomationBasic.BaseUrlTest@4be29ed9]" started-at="2024-02-15T21:30:50 BDT" name="close" finished-at="2024-02-15T21:30:51 BDT" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
