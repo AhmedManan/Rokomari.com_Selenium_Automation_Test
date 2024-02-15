@@ -1,6 +1,6 @@
-# Digital Aid Selenium Test Project
+# Rokomari.Com Selenium Test Project
 
-Welcome to the Digital Aid Selenium Test Project! This repository contains a collection of **Selenium test scripts** for automating the testing of the Web Application [Dengue Aid (Formerly Digital AID)](https://digital-aid.ahmedmanan.com). The purpose of this test project is to ensure the proper functioning of Dengue Aid's features through automated testing.
+Welcome to the Digital Aid Selenium Test Project! This repository contains a collection of **Selenium test scripts** for automating the testing of the Web Application [Rokomari](https://rokomari.com). The purpose of this test project is to ensure the proper functioning of Dengue Aid's features through automated testing.
 
 ## Table of Contents
 
