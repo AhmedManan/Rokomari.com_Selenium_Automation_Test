@@ -15,9 +15,9 @@ public class LoginAutomation extends BaseDriver {
 		Thread.sleep(2000); // 1000 = 1sec
 		
 		driver.findElement(By.xpath("//input[@id='username']")).clear();
-		driver.findElement(By.xpath("//input[@id='username']")).sendKeys("manan.sqa@protonmail.com");
+		driver.findElement(By.xpath("//input[@id='username']")).sendKeys("email");
 		driver.findElement(By.xpath("//input[@id='password']")).clear();
-		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("@WafiLife");
+		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("password");
 		driver.findElement(By.name("login")).click();
 		Thread.sleep(5000); // 1000 = 1sec
 		
