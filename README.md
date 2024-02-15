@@ -1,6 +1,6 @@
-# Rokomari.Com Selenium Test Project
+# WafiLife Selenium Test Project
 
-Welcome to the Digital Aid Selenium Test Project! This repository contains a collection of **Selenium test scripts** for automating the testing of the Web Application [Rokomari](https://rokomari.com). The purpose of this test project is to ensure the proper functioning of Dengue Aid's features through automated testing.
+Welcome to the Digital Aid Selenium Test Project! This repository contains a collection of **Selenium test scripts** for automating the testing of the Web Application [WafiLife](https://www.wafilife.com/). The purpose of this test project is to ensure the proper functioning of Dengue Aid's features through automated testing.
 
 ## Table of Contents
 
@@ -12,7 +12,7 @@ Welcome to the Digital Aid Selenium Test Project! This repository contains a col
 
 ## Introduction
 
-The Dengue Aid Selenium Test Project aims to provide an automated testing suite for the Dengue Aid web application. It leverages the Selenium WebDriver to interact with the application's user interface and validate its behavior. Automated testing helps ensure the application remains functional and free from regressions as the codebase evolves.
+The WafiLife Selenium Test Project aims to provide an automated testing suite for the WafiLife web application. It leverages the Selenium WebDriver to interact with the application's user interface and validate its behavior. Automated testing helps ensure the application remains functional and free from regressions as the codebase evolves.
 
 ## Getting Started
 
