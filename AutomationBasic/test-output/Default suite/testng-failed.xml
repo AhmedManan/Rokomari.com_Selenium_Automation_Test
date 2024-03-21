@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AutomationBasic.LoginAutomation">
+      <class name="AutomationBasic.IncognitoMode">
         <methods>
+          <include name="IncognitoMode"/>
           <include name="close"/>
-          <include name="SelectWritter"/>
           <include name="startBrowser"/>
         </methods>
-      </class> <!-- AutomationBasic.LoginAutomation -->
+      </class> <!-- AutomationBasic.IncognitoMode -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
