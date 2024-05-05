@@ -11,6 +11,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseDriver {
 	
+	protected static String url="https://www.wafilife.com/my-account";
 	WebDriver driver;
 	
 	@BeforeSuite
@@ -20,7 +21,6 @@ public class BaseDriver {
 		if(browserName.equals("chrome")){
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
-			
 		}else if(browserName.equals("firefox")){
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
@@ -28,6 +28,8 @@ public class BaseDriver {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 		}
+		driver.manage().window().maximize();
+		PageDriver.getInstance().setDriver(driver);
 	}
 	
 	@AfterSuite
