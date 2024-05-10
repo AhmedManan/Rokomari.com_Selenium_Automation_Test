@@ -47,35 +47,45 @@ public class LoginPage {
 		test.pass("<p style=\"color:#85BC63; font-size:13px\"><b>" + message + "</b></p>");
 	}
 	
+	public void passCaseWithSC(String message, String scName) throws IOException {
+		test.pass("<p style=\"color:#85BC63; font-size:13px\"><b>" + message + "</b></p>");
+		String screenShotPath = GetScreenShot.capture(PageDriver.getCurrentDriver(), "" + scName + "");
+		String dest = System.getProperty("user.dir") + "\\screenshots\\" + "" + scName + ".png";
+		test.fail(MediaEntityBuilder.createScreenCaptureFromPath(dest).build());
+		PageDriver.getCurrentDriver().quit();
+	}
+	
 	public void login() throws InterruptedException, IOException {
 		
 		try {
 			test.info("Please enter username");
 			if(username.isDisplayed()) {
 				username.sendKeys("admin");
-				test.pass("<p style=\"color:#85BC63; font-size:13px\"><b>" + "Test Passed" + "</b></p>");
+				passCase("Username Entered");
 			}
 		}catch(Exception e){
-			test.fail("<p style=\"color:#FF5353; font-size:13px\"><b>" + "Username is not located. Please check the error message" + "</b></p>");
-			Throwable t = new InterruptedException("Exception");
-			test.fail(t);
-			String screenShotPath = GetScreenShot.capture(PageDriver.getCurrentDriver(), "" + "usernameFail" + "");
-			String dest = System.getProperty("user.dir") + "\\screenshots\\" + "" + "usernameFail" + ".png";
-			test.fail(MediaEntityBuilder.createScreenCaptureFromPath(dest).build());
-			PageDriver.getCurrentDriver().quit();
+			failCase("Username was not located, Please check the error message.","usernamefail");
 		}
 		
 		try {
 			test.info("Please enter password");
 			if(password.isDisplayed()) {
 				password.sendKeys("admin");
-				test.pass("<p style=\"color:#85BC63; font-size:13px\"><b>" + "Test Passed" + "</b></p>");
+				passCase("Password Sent");
 			}
 		}catch(Exception e){
-
+			failCase("Password was not located, Please check the error message.","passwordfail");
 		}
-		
-		loginButton.click();
+		try {
+			test.info("Click on the link");
+			if(loginButton.isDisplayed()) {
+				loginButton.click();
+				Thread.sleep(1000);
+				passCaseWithSC("Login Successfull","loginPass");
+			}
+		}catch(Exception e) {
+			failCase("Login button was not located, Please check the error message.","loginbuttonfail");
+		}
 		Thread.sleep(1000);
 	}
 }
